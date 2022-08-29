@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Mobile */
+@media (max-width: 576px) { 
+  /* All Elements */
+  .btn-clr {
+    background-color: brown;
+    color: white !important;
+    border: 0!important;
+    width: 5rem;
+    font-size: 8px;
+  }
+  /* End All Elements */
+  /* Top Rated */
+  .chd-mv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .tps-cvr {
+    height: max-content;
+    width: 22rem;
+    border-radius: 15px;
+  }
+  .inf-mv p {
+    color: white;
+    font-size: 10px;
+    display:none;
+  }
+  h4.txt-tps-mv {
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    color: white;
+  }
+
+  .cvr-ant {
+    width: 10rem;
+    height: max-content;
+    border-radius: 20px;
+  }
+  .ant-inf-mv {
+    position: absolute;
+    bottom: 20px;
+    width: 6rem;
+    text-align: start;
+    left: 20px;
+    background: rgb(0,0,0, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .txt-tps-mv-ant {
+    width: 100%;
+    font-size: 10px;
+    margin: 0;
+    color: white;
+  }
+  .tps-mv-ant {
+    align-items: center;
+    display: flex;
+  }
+  /* End Top Rated */
+}
+
+/* Tablet */
+@media screen and (max-width: 1000px) and (min-width: 600px){
+  
+}
